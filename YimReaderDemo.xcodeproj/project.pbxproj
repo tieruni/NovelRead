@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2BD7CB2307F6ED003817E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2BD7CA2307F6ED003817E1 /* AppDelegate.m */; };
+		EF2BD7CE2307F6ED003817E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2BD7CD2307F6ED003817E1 /* ViewController.m */; };
+		EF2BD7D12307F6ED003817E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2BD7CF2307F6ED003817E1 /* Main.storyboard */; };
+		EF2BD7D32307F6EF003817E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2BD7D22307F6EF003817E1 /* Assets.xcassets */; };
+		EF2BD7D62307F6EF003817E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2BD7D42307F6EF003817E1 /* LaunchScreen.storyboard */; };
+		EF2BD7D92307F6EF003817E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2BD7D82307F6EF003817E1 /* main.m */; };
+		EF30DCE22351C4CC0026CE15 /* QLReadPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF30DCE12351C4CC0026CE15 /* QLReadPageViewController.m */; };
+		EF3B0970241734EF00DF9C7A /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B096F241734EF00DF9C7A /* UIImage+ImageEffects.m */; };
+		EF3B0973241778F500DF9C7A /* QLMenuCataLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B0972241778F500DF9C7A /* QLMenuCataLogViewController.m */; };
+		EF3B097724178C0300DF9C7A /* QLMenuChapterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B097624178C0300DF9C7A /* QLMenuChapterVC.m */; };
+		EF3B097A2418BCB400DF9C7A /* ReaderHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B09792418BCB400DF9C7A /* ReaderHomeViewController.m */; };
+		EF3B097D2418BEE300DF9C7A /* PersonalCenterPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B097C2418BEE300DF9C7A /* PersonalCenterPageViewController.m */; };
+		EF3B09802418CA1B00DF9C7A /* ReaderHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B097F2418CA1B00DF9C7A /* ReaderHomeView.m */; };
+		EF3B098B2418D25500DF9C7A /* PersonPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B098A2418D25500DF9C7A /* PersonPageView.m */; };
+		EF3B09AE2419D5E300DF9C7A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B09952419D5E300DF9C7A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		EF3B09AF2419D5E300DF9C7A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B099E2419D5E300DF9C7A /* ViewController+MASAdditions.m */; };
+		EF3B09B02419D5E300DF9C7A /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B09A22419D5E300DF9C7A /* MASCompositeConstraint.m */; };
+		EF3B09B12419D5E300DF9C7A /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B09A32419D5E300DF9C7A /* MASConstraintMaker.m */; };
+		EF3B09B22419D5E300DF9C7A /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B09A42419D5E300DF9C7A /* MASLayoutConstraint.m */; };
+		EF3B09B32419D5E300DF9C7A /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B09A52419D5E300DF9C7A /* NSArray+MASAdditions.m */; };
+		EF3B09B42419D5E300DF9C7A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B09A62419D5E300DF9C7A /* View+MASAdditions.m */; };
+		EF3B09B52419D5E300DF9C7A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B09A92419D5E300DF9C7A /* MASConstraint.m */; };
+		EF3B09B62419D5E300DF9C7A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B09AB2419D5E300DF9C7A /* MASViewConstraint.m */; };
+		EF3B09B72419D5E300DF9C7A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B09AC2419D5E300DF9C7A /* MASViewAttribute.m */; };
+		EF3B09B82419D5E300DF9C7A /* klotFeedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B09AD2419D5E300DF9C7A /* klotFeedVC.m */; };
+		EF3C0F422395070A0029BCC8 /* QLReadParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C0F412395070A0029BCC8 /* QLReadParser.m */; };
+		EF3D36242339C75A00FBE4FD /* QLReaderChapterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D36232339C75A00FBE4FD /* QLReaderChapterModel.m */; };
+		EF58F4C92333273200A90856 /* QLReadBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF58F4C82333273200A90856 /* QLReadBookModel.m */; };
+		EF7F8BDE241A250700FBD251 /* 斗破苍穹.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF7F8BCE241A250600FBD251 /* 斗破苍穹.txt */; };
+		EF7F8BDF241A250700FBD251 /* 大主宰.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF7F8BCF241A250600FBD251 /* 大主宰.txt */; };
+		EF7F8BE0241A250700FBD251 /* BookCover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF7F8BD0241A250600FBD251 /* BookCover.jpg */; };
+		EF7F8BE2241A250700FBD251 /* 神印王座.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF7F8BD2241A250600FBD251 /* 神印王座.txt */; };
+		EF7F8BE3241A250700FBD251 /* 民调局异闻录.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF7F8BD3241A250600FBD251 /* 民调局异闻录.txt */; };
+		EF7F8BE4241A250700FBD251 /* Avatar1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF7F8BD4241A250600FBD251 /* Avatar1.jpeg */; };
+		EF7F8BE5241A250700FBD251 /* 最强全才.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF7F8BD5241A250600FBD251 /* 最强全才.txt */; };
+		EF7F8BE6241A250700FBD251 /* PersonalCenterIcon@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF7F8BD6241A250600FBD251 /* PersonalCenterIcon@2x.jpeg */; };
+		EF7F8BE7241A250700FBD251 /* bg_back_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7F8BD7241A250700FBD251 /* bg_back_white.png */; };
+		EF7F8BEA241A250700FBD251 /* 遮天.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF7F8BDA241A250700FBD251 /* 遮天.txt */; };
+		EF7F8BEB241A250700FBD251 /* reader_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7F8BDB241A250700FBD251 /* reader_cover.png */; };
+		EF7F8BEC241A250700FBD251 /* ReadingIcon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF7F8BDC241A250700FBD251 /* ReadingIcon@2x.jpg */; };
+		EF8DDC08242240B10091462B /* 按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDC05242240B00091462B /* 按钮.png */; };
+		EF8DDC09242240B10091462B /* HomePage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDC06242240B00091462B /* HomePage.jpg */; };
+		EF8DDC0A242240B10091462B /* Personalpage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDC07242240B10091462B /* Personalpage.jpg */; };
+		EF8DDC12242241460091462B /* 最强全才.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDC0C242241450091462B /* 最强全才.jpg */; };
+		EF8DDC13242241460091462B /* 神印王座.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDC0D242241450091462B /* 神印王座.jpg */; };
+		EF8DDC14242241460091462B /* 斗破苍穹.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDC0E242241450091462B /* 斗破苍穹.jpg */; };
+		EF8DDC15242241460091462B /* 大主宰.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDC0F242241450091462B /* 大主宰.jpg */; };
+		EF8DDC16242241460091462B /* 遮天.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDC10242241450091462B /* 遮天.jpg */; };
+		EF8DDC17242241460091462B /* 民调局异闻录.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDC11242241450091462B /* 民调局异闻录.jpg */; };
+		EF9BC8502334B438000A9B5B /* QLReadConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9BC84F2334B438000A9B5B /* QLReadConfig.m */; };
+		EFE0081A2410A808000ECD3A /* QLtapMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE008192410A808000ECD3A /* QLtapMenuView.m */; };
+		EFE0081D2410CE08000ECD3A /* QLTopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE0081C2410CE08000ECD3A /* QLTopMenuView.m */; };
+		EFE0089724112DC7000ECD3A /* QLBottomMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE0089624112DC7000ECD3A /* QLBottomMenuView.m */; };
+		EFF1E1AC23335C2800B8106C /* QLReadView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF1E1AB23335C2800B8106C /* QLReadView.m */; };
+		EFF572762360031B00E9E63C /* QLReadRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF572752360031B00E9E63C /* QLReadRecordModel.m */; };
+		EFF572792360740900E9E63C /* QLReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF572782360740900E9E63C /* QLReadViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF2BD7C62307F6ED003817E1 /* YimReaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YimReaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2BD7C92307F6ED003817E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF2BD7CA2307F6ED003817E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF2BD7CC2307F6ED003817E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF2BD7CD2307F6ED003817E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF2BD7D02307F6ED003817E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF2BD7D22307F6EF003817E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2BD7D52307F6EF003817E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF2BD7D72307F6EF003817E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2BD7D82307F6EF003817E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF30DCE02351C4CC0026CE15 /* QLReadPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLReadPageViewController.h; sourceTree = "<group>"; };
+		EF30DCE12351C4CC0026CE15 /* QLReadPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLReadPageViewController.m; sourceTree = "<group>"; };
+		EF3B096E241734EF00DF9C7A /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		EF3B096F241734EF00DF9C7A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		EF3B0971241778F500DF9C7A /* QLMenuCataLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLMenuCataLogViewController.h; sourceTree = "<group>"; };
+		EF3B0972241778F500DF9C7A /* QLMenuCataLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLMenuCataLogViewController.m; sourceTree = "<group>"; };
+		EF3B097524178C0300DF9C7A /* QLMenuChapterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLMenuChapterVC.h; sourceTree = "<group>"; };
+		EF3B097624178C0300DF9C7A /* QLMenuChapterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLMenuChapterVC.m; sourceTree = "<group>"; };
+		EF3B09782418BCB400DF9C7A /* ReaderHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaderHomeViewController.h; sourceTree = "<group>"; };
+		EF3B09792418BCB400DF9C7A /* ReaderHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReaderHomeViewController.m; sourceTree = "<group>"; };
+		EF3B097B2418BEE300DF9C7A /* PersonalCenterPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalCenterPageViewController.h; sourceTree = "<group>"; };
+		EF3B097C2418BEE300DF9C7A /* PersonalCenterPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterPageViewController.m; sourceTree = "<group>"; };
+		EF3B097E2418CA1B00DF9C7A /* ReaderHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaderHomeView.h; sourceTree = "<group>"; };
+		EF3B097F2418CA1B00DF9C7A /* ReaderHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReaderHomeView.m; sourceTree = "<group>"; };
+		EF3B09892418D25500DF9C7A /* PersonPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonPageView.h; sourceTree = "<group>"; };
+		EF3B098A2418D25500DF9C7A /* PersonPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonPageView.m; sourceTree = "<group>"; };
+		EF3B09922419D5E200DF9C7A /* klotFeedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = klotFeedVC.h; sourceTree = "<group>"; };
+		EF3B09942419D5E300DF9C7A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		EF3B09952419D5E300DF9C7A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		EF3B09962419D5E300DF9C7A /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		EF3B09972419D5E300DF9C7A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		EF3B09982419D5E300DF9C7A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		EF3B09992419D5E300DF9C7A /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		EF3B099A2419D5E300DF9C7A /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		EF3B099B2419D5E300DF9C7A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		EF3B099C2419D5E300DF9C7A /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		EF3B099D2419D5E300DF9C7A /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		EF3B099E2419D5E300DF9C7A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		EF3B099F2419D5E300DF9C7A /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		EF3B09A02419D5E300DF9C7A /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		EF3B09A12419D5E300DF9C7A /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EF3B09A22419D5E300DF9C7A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EF3B09A32419D5E300DF9C7A /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		EF3B09A42419D5E300DF9C7A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		EF3B09A52419D5E300DF9C7A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		EF3B09A62419D5E300DF9C7A /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		EF3B09A72419D5E300DF9C7A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		EF3B09A82419D5E300DF9C7A /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		EF3B09A92419D5E300DF9C7A /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		EF3B09AA2419D5E300DF9C7A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		EF3B09AB2419D5E300DF9C7A /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		EF3B09AC2419D5E300DF9C7A /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		EF3B09AD2419D5E300DF9C7A /* klotFeedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = klotFeedVC.m; sourceTree = "<group>"; };
+		EF3C0F402395070A0029BCC8 /* QLReadParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLReadParser.h; sourceTree = "<group>"; };
+		EF3C0F412395070A0029BCC8 /* QLReadParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLReadParser.m; sourceTree = "<group>"; };
+		EF3D36222339C75A00FBE4FD /* QLReaderChapterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLReaderChapterModel.h; sourceTree = "<group>"; };
+		EF3D36232339C75A00FBE4FD /* QLReaderChapterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLReaderChapterModel.m; sourceTree = "<group>"; };
+		EF58F4C72333273200A90856 /* QLReadBookModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLReadBookModel.h; sourceTree = "<group>"; };
+		EF58F4C82333273200A90856 /* QLReadBookModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLReadBookModel.m; sourceTree = "<group>"; };
+		EF7F8BCE241A250600FBD251 /* 斗破苍穹.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "斗破苍穹.txt"; sourceTree = "<group>"; };
+		EF7F8BCF241A250600FBD251 /* 大主宰.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "大主宰.txt"; sourceTree = "<group>"; };
+		EF7F8BD0241A250600FBD251 /* BookCover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BookCover.jpg; sourceTree = "<group>"; };
+		EF7F8BD2241A250600FBD251 /* 神印王座.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "神印王座.txt"; sourceTree = "<group>"; };
+		EF7F8BD3241A250600FBD251 /* 民调局异闻录.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "民调局异闻录.txt"; sourceTree = "<group>"; };
+		EF7F8BD4241A250600FBD251 /* Avatar1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Avatar1.jpeg; sourceTree = "<group>"; };
+		EF7F8BD5241A250600FBD251 /* 最强全才.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "最强全才.txt"; sourceTree = "<group>"; };
+		EF7F8BD6241A250600FBD251 /* PersonalCenterIcon@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PersonalCenterIcon@2x.jpeg"; sourceTree = "<group>"; };
+		EF7F8BD7241A250700FBD251 /* bg_back_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_back_white.png; sourceTree = "<group>"; };
+		EF7F8BDA241A250700FBD251 /* 遮天.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "遮天.txt"; sourceTree = "<group>"; };
+		EF7F8BDB241A250700FBD251 /* reader_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reader_cover.png; sourceTree = "<group>"; };
+		EF7F8BDC241A250700FBD251 /* ReadingIcon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ReadingIcon@2x.jpg"; sourceTree = "<group>"; };
+		EF8DDC05242240B00091462B /* 按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮.png"; sourceTree = "<group>"; };
+		EF8DDC06242240B00091462B /* HomePage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HomePage.jpg; sourceTree = "<group>"; };
+		EF8DDC07242240B10091462B /* Personalpage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Personalpage.jpg; sourceTree = "<group>"; };
+		EF8DDC0C242241450091462B /* 最强全才.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "最强全才.jpg"; sourceTree = "<group>"; };
+		EF8DDC0D242241450091462B /* 神印王座.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "神印王座.jpg"; sourceTree = "<group>"; };
+		EF8DDC0E242241450091462B /* 斗破苍穹.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "斗破苍穹.jpg"; sourceTree = "<group>"; };
+		EF8DDC0F242241450091462B /* 大主宰.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大主宰.jpg"; sourceTree = "<group>"; };
+		EF8DDC10242241450091462B /* 遮天.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "遮天.jpg"; sourceTree = "<group>"; };
+		EF8DDC11242241450091462B /* 民调局异闻录.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "民调局异闻录.jpg"; sourceTree = "<group>"; };
+		EF9BC84E2334B438000A9B5B /* QLReadConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLReadConfig.h; sourceTree = "<group>"; };
+		EF9BC84F2334B438000A9B5B /* QLReadConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLReadConfig.m; sourceTree = "<group>"; };
+		EFE008182410A808000ECD3A /* QLtapMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLtapMenuView.h; sourceTree = "<group>"; };
+		EFE008192410A808000ECD3A /* QLtapMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLtapMenuView.m; sourceTree = "<group>"; };
+		EFE0081B2410CE08000ECD3A /* QLTopMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLTopMenuView.h; sourceTree = "<group>"; };
+		EFE0081C2410CE08000ECD3A /* QLTopMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLTopMenuView.m; sourceTree = "<group>"; };
+		EFE0089524112DC7000ECD3A /* QLBottomMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLBottomMenuView.h; sourceTree = "<group>"; };
+		EFE0089624112DC7000ECD3A /* QLBottomMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLBottomMenuView.m; sourceTree = "<group>"; };
+		EFF1E1A5233328AA00B8106C /* QLReadHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLReadHeader.pch; sourceTree = "<group>"; };
+		EFF1E1AA23335C2800B8106C /* QLReadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLReadView.h; sourceTree = "<group>"; };
+		EFF1E1AB23335C2800B8106C /* QLReadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLReadView.m; sourceTree = "<group>"; };
+		EFF572742360031B00E9E63C /* QLReadRecordModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLReadRecordModel.h; sourceTree = "<group>"; };
+		EFF572752360031B00E9E63C /* QLReadRecordModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLReadRecordModel.m; sourceTree = "<group>"; };
+		EFF572772360740900E9E63C /* QLReadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLReadViewController.h; sourceTree = "<group>"; };
+		EFF572782360740900E9E63C /* QLReadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLReadViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF2BD7C32307F6ED003817E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2BD7BD2307F6ED003817E1 = {
+			isa = PBXGroup;
+			children = (
+				EF2BD7C82307F6ED003817E1 /* YimReaderDemo */,
+				EF2BD7C72307F6ED003817E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2BD7C72307F6ED003817E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2BD7C62307F6ED003817E1 /* YimReaderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2BD7C82307F6ED003817E1 /* YimReaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF3B09782418BCB400DF9C7A /* ReaderHomeViewController.h */,
+				EF3B09792418BCB400DF9C7A /* ReaderHomeViewController.m */,
+				EF3B097B2418BEE300DF9C7A /* PersonalCenterPageViewController.h */,
+				EF3B097C2418BEE300DF9C7A /* PersonalCenterPageViewController.m */,
+				EFF572772360740900E9E63C /* QLReadViewController.h */,
+				EFF572782360740900E9E63C /* QLReadViewController.m */,
+				EF30DCE02351C4CC0026CE15 /* QLReadPageViewController.h */,
+				EF30DCE12351C4CC0026CE15 /* QLReadPageViewController.m */,
+				EF3B0971241778F500DF9C7A /* QLMenuCataLogViewController.h */,
+				EF3B0972241778F500DF9C7A /* QLMenuCataLogViewController.m */,
+				EF3B097424178BD700DF9C7A /* MenuCatalogVc */,
+				EF9BC84D2334B28F000A9B5B /* Core */,
+				EF7F8BCD241A24E500FBD251 /* Resource */,
+				EFF1E1A923335C0F00B8106C /* View */,
+				EF58F4C6233326FC00A90856 /* Model */,
+				EF2BD7C92307F6ED003817E1 /* AppDelegate.h */,
+				EF2BD7CA2307F6ED003817E1 /* AppDelegate.m */,
+				EF2BD7CC2307F6ED003817E1 /* ViewController.h */,
+				EF2BD7CD2307F6ED003817E1 /* ViewController.m */,
+				EF2BD7CF2307F6ED003817E1 /* Main.storyboard */,
+				EF2BD7D22307F6EF003817E1 /* Assets.xcassets */,
+				EF2BD7D42307F6EF003817E1 /* LaunchScreen.storyboard */,
+				EF2BD7D72307F6EF003817E1 /* Info.plist */,
+				EF2BD7D82307F6EF003817E1 /* main.m */,
+				EFF1E1A5233328AA00B8106C /* QLReadHeader.pch */,
+			);
+			path = YimReaderDemo;
+			sourceTree = "<group>";
+		};
+		EF3B096D241734EF00DF9C7A /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				EF3B09932419D5E300DF9C7A /* Masonry */,
+				EF3B09922419D5E200DF9C7A /* klotFeedVC.h */,
+				EF3B09AD2419D5E300DF9C7A /* klotFeedVC.m */,
+				EF3B096E241734EF00DF9C7A /* UIImage+ImageEffects.h */,
+				EF3B096F241734EF00DF9C7A /* UIImage+ImageEffects.m */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		EF3B097424178BD700DF9C7A /* MenuCatalogVc */ = {
+			isa = PBXGroup;
+			children = (
+				EF3B097524178C0300DF9C7A /* QLMenuChapterVC.h */,
+				EF3B097624178C0300DF9C7A /* QLMenuChapterVC.m */,
+			);
+			path = MenuCatalogVc;
+			sourceTree = "<group>";
+		};
+		EF3B09932419D5E300DF9C7A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				EF3B09942419D5E300DF9C7A /* MASCompositeConstraint.h */,
+				EF3B09952419D5E300DF9C7A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				EF3B09962419D5E300DF9C7A /* MASConstraint+Private.h */,
+				EF3B09972419D5E300DF9C7A /* MASLayoutConstraint.h */,
+				EF3B09982419D5E300DF9C7A /* NSArray+MASShorthandAdditions.h */,
+				EF3B09992419D5E300DF9C7A /* MASConstraintMaker.h */,
+				EF3B099A2419D5E300DF9C7A /* View+MASAdditions.h */,
+				EF3B099B2419D5E300DF9C7A /* NSArray+MASAdditions.h */,
+				EF3B099C2419D5E300DF9C7A /* MASUtilities.h */,
+				EF3B099D2419D5E300DF9C7A /* MASViewAttribute.h */,
+				EF3B099E2419D5E300DF9C7A /* ViewController+MASAdditions.m */,
+				EF3B099F2419D5E300DF9C7A /* MASViewConstraint.h */,
+				EF3B09A02419D5E300DF9C7A /* MASConstraint.h */,
+				EF3B09A12419D5E300DF9C7A /* NSLayoutConstraint+MASDebugAdditions.h */,
+				EF3B09A22419D5E300DF9C7A /* MASCompositeConstraint.m */,
+				EF3B09A32419D5E300DF9C7A /* MASConstraintMaker.m */,
+				EF3B09A42419D5E300DF9C7A /* MASLayoutConstraint.m */,
+				EF3B09A52419D5E300DF9C7A /* NSArray+MASAdditions.m */,
+				EF3B09A62419D5E300DF9C7A /* View+MASAdditions.m */,
+				EF3B09A72419D5E300DF9C7A /* View+MASShorthandAdditions.h */,
+				EF3B09A82419D5E300DF9C7A /* Masonry.h */,
+				EF3B09A92419D5E300DF9C7A /* MASConstraint.m */,
+				EF3B09AA2419D5E300DF9C7A /* ViewController+MASAdditions.h */,
+				EF3B09AB2419D5E300DF9C7A /* MASViewConstraint.m */,
+				EF3B09AC2419D5E300DF9C7A /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		EF58F4C6233326FC00A90856 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF58F4C72333273200A90856 /* QLReadBookModel.h */,
+				EF58F4C82333273200A90856 /* QLReadBookModel.m */,
+				EF3D36222339C75A00FBE4FD /* QLReaderChapterModel.h */,
+				EF3D36232339C75A00FBE4FD /* QLReaderChapterModel.m */,
+				EFF572742360031B00E9E63C /* QLReadRecordModel.h */,
+				EFF572752360031B00E9E63C /* QLReadRecordModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF7F8BCD241A24E500FBD251 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DDC0B242241450091462B /* 小说封面 */,
+				EF8DDC05242240B00091462B /* 按钮.png */,
+				EF8DDC06242240B00091462B /* HomePage.jpg */,
+				EF8DDC07242240B10091462B /* Personalpage.jpg */,
+				EF7F8BCF241A250600FBD251 /* 大主宰.txt */,
+				EF7F8BCE241A250600FBD251 /* 斗破苍穹.txt */,
+				EF7F8BD3241A250600FBD251 /* 民调局异闻录.txt */,
+				EF7F8BD2241A250600FBD251 /* 神印王座.txt */,
+				EF7F8BDA241A250700FBD251 /* 遮天.txt */,
+				EF7F8BD5241A250600FBD251 /* 最强全才.txt */,
+				EF7F8BD4241A250600FBD251 /* Avatar1.jpeg */,
+				EF7F8BD7241A250700FBD251 /* bg_back_white.png */,
+				EF7F8BD0241A250600FBD251 /* BookCover.jpg */,
+				EF7F8BD6241A250600FBD251 /* PersonalCenterIcon@2x.jpeg */,
+				EF7F8BDB241A250700FBD251 /* reader_cover.png */,
+				EF7F8BDC241A250700FBD251 /* ReadingIcon@2x.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EF8DDC0B242241450091462B /* 小说封面 */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DDC0C242241450091462B /* 最强全才.jpg */,
+				EF8DDC0D242241450091462B /* 神印王座.jpg */,
+				EF8DDC0E242241450091462B /* 斗破苍穹.jpg */,
+				EF8DDC0F242241450091462B /* 大主宰.jpg */,
+				EF8DDC10242241450091462B /* 遮天.jpg */,
+				EF8DDC11242241450091462B /* 民调局异闻录.jpg */,
+			);
+			path = "小说封面";
+			sourceTree = "<group>";
+		};
+		EF9BC84D2334B28F000A9B5B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EF3B096D241734EF00DF9C7A /* Third */,
+				EF9BC84E2334B438000A9B5B /* QLReadConfig.h */,
+				EF9BC84F2334B438000A9B5B /* QLReadConfig.m */,
+				EF3C0F402395070A0029BCC8 /* QLReadParser.h */,
+				EF3C0F412395070A0029BCC8 /* QLReadParser.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EFF1E1A923335C0F00B8106C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFF1E1AA23335C2800B8106C /* QLReadView.h */,
+				EFF1E1AB23335C2800B8106C /* QLReadView.m */,
+				EFE008182410A808000ECD3A /* QLtapMenuView.h */,
+				EFE008192410A808000ECD3A /* QLtapMenuView.m */,
+				EFE0081B2410CE08000ECD3A /* QLTopMenuView.h */,
+				EFE0081C2410CE08000ECD3A /* QLTopMenuView.m */,
+				EFE0089524112DC7000ECD3A /* QLBottomMenuView.h */,
+				EFE0089624112DC7000ECD3A /* QLBottomMenuView.m */,
+				EF3B097E2418CA1B00DF9C7A /* ReaderHomeView.h */,
+				EF3B097F2418CA1B00DF9C7A /* ReaderHomeView.m */,
+				EF3B09892418D25500DF9C7A /* PersonPageView.h */,
+				EF3B098A2418D25500DF9C7A /* PersonPageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF2BD7C52307F6ED003817E1 /* YimReaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2BD7DC2307F6EF003817E1 /* Build configuration list for PBXNativeTarget "YimReaderDemo" */;
+			buildPhases = (
+				EF2BD7C22307F6ED003817E1 /* Sources */,
+				EF2BD7C32307F6ED003817E1 /* Frameworks */,
+				EF2BD7C42307F6ED003817E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YimReaderDemo;
+			productName = YimReaderDemo;
+			productReference = EF2BD7C62307F6ED003817E1 /* YimReaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2BD7BE2307F6ED003817E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Yimmm;
+				TargetAttributes = {
+					EF2BD7C52307F6ED003817E1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EF2BD7C12307F6ED003817E1 /* Build configuration list for PBXProject "YimReaderDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2BD7BD2307F6ED003817E1;
+			productRefGroup = EF2BD7C72307F6ED003817E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2BD7C52307F6ED003817E1 /* YimReaderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF2BD7C42307F6ED003817E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8DDC15242241460091462B /* 大主宰.jpg in Resources */,
+				EF7F8BE3241A250700FBD251 /* 民调局异闻录.txt in Resources */,
+				EF8DDC09242240B10091462B /* HomePage.jpg in Resources */,
+				EF8DDC08242240B10091462B /* 按钮.png in Resources */,
+				EF2BD7D62307F6EF003817E1 /* LaunchScreen.storyboard in Resources */,
+				EF7F8BE6241A250700FBD251 /* PersonalCenterIcon@2x.jpeg in Resources */,
+				EF2BD7D32307F6EF003817E1 /* Assets.xcassets in Resources */,
+				EF8DDC0A242240B10091462B /* Personalpage.jpg in Resources */,
+				EF8DDC13242241460091462B /* 神印王座.jpg in Resources */,
+				EF8DDC12242241460091462B /* 最强全才.jpg in Resources */,
+				EF7F8BEC241A250700FBD251 /* ReadingIcon@2x.jpg in Resources */,
+				EF7F8BE0241A250700FBD251 /* BookCover.jpg in Resources */,
+				EF2BD7D12307F6ED003817E1 /* Main.storyboard in Resources */,
+				EF7F8BEB241A250700FBD251 /* reader_cover.png in Resources */,
+				EF7F8BE4241A250700FBD251 /* Avatar1.jpeg in Resources */,
+				EF8DDC17242241460091462B /* 民调局异闻录.jpg in Resources */,
+				EF8DDC14242241460091462B /* 斗破苍穹.jpg in Resources */,
+				EF7F8BDE241A250700FBD251 /* 斗破苍穹.txt in Resources */,
+				EF7F8BEA241A250700FBD251 /* 遮天.txt in Resources */,
+				EF8DDC16242241460091462B /* 遮天.jpg in Resources */,
+				EF7F8BE2241A250700FBD251 /* 神印王座.txt in Resources */,
+				EF7F8BDF241A250700FBD251 /* 大主宰.txt in Resources */,
+				EF7F8BE7241A250700FBD251 /* bg_back_white.png in Resources */,
+				EF7F8BE5241A250700FBD251 /* 最强全才.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF2BD7C22307F6ED003817E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3B097A2418BCB400DF9C7A /* ReaderHomeViewController.m in Sources */,
+				EF9BC8502334B438000A9B5B /* QLReadConfig.m in Sources */,
+				EFE0089724112DC7000ECD3A /* QLBottomMenuView.m in Sources */,
+				EF3B097724178C0300DF9C7A /* QLMenuChapterVC.m in Sources */,
+				EF3B09B02419D5E300DF9C7A /* MASCompositeConstraint.m in Sources */,
+				EF2BD7CE2307F6ED003817E1 /* ViewController.m in Sources */,
+				EF3B09B22419D5E300DF9C7A /* MASLayoutConstraint.m in Sources */,
+				EF30DCE22351C4CC0026CE15 /* QLReadPageViewController.m in Sources */,
+				EF3B0973241778F500DF9C7A /* QLMenuCataLogViewController.m in Sources */,
+				EF3D36242339C75A00FBE4FD /* QLReaderChapterModel.m in Sources */,
+				EFE0081A2410A808000ECD3A /* QLtapMenuView.m in Sources */,
+				EFF1E1AC23335C2800B8106C /* QLReadView.m in Sources */,
+				EF3B09802418CA1B00DF9C7A /* ReaderHomeView.m in Sources */,
+				EF3B09AE2419D5E300DF9C7A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				EF3B09B82419D5E300DF9C7A /* klotFeedVC.m in Sources */,
+				EFF572792360740900E9E63C /* QLReadViewController.m in Sources */,
+				EF3B09B62419D5E300DF9C7A /* MASViewConstraint.m in Sources */,
+				EF3B09AF2419D5E300DF9C7A /* ViewController+MASAdditions.m in Sources */,
+				EFE0081D2410CE08000ECD3A /* QLTopMenuView.m in Sources */,
+				EF3B098B2418D25500DF9C7A /* PersonPageView.m in Sources */,
+				EF3B097D2418BEE300DF9C7A /* PersonalCenterPageViewController.m in Sources */,
+				EF58F4C92333273200A90856 /* QLReadBookModel.m in Sources */,
+				EF3B09B42419D5E300DF9C7A /* View+MASAdditions.m in Sources */,
+				EF3B09B72419D5E300DF9C7A /* MASViewAttribute.m in Sources */,
+				EF2BD7D92307F6EF003817E1 /* main.m in Sources */,
+				EF3B09B52419D5E300DF9C7A /* MASConstraint.m in Sources */,
+				EF3B0970241734EF00DF9C7A /* UIImage+ImageEffects.m in Sources */,
+				EF3B09B12419D5E300DF9C7A /* MASConstraintMaker.m in Sources */,
+				EF3B09B32419D5E300DF9C7A /* NSArray+MASAdditions.m in Sources */,
+				EFF572762360031B00E9E63C /* QLReadRecordModel.m in Sources */,
+				EF3C0F422395070A0029BCC8 /* QLReadParser.m in Sources */,
+				EF2BD7CB2307F6ED003817E1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF2BD7CF2307F6ED003817E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2BD7D02307F6ED003817E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF2BD7D42307F6EF003817E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2BD7D52307F6EF003817E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2BD7DA2307F6EF003817E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF2BD7DB2307F6EF003817E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2BD7DD2307F6EF003817E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 327SF6A8Y3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YimReaderDemo/QLReadHeader.pch";
+				INFOPLIST_FILE = YimReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.protocol.diudiusfnd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF2BD7DE2307F6EF003817E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 327SF6A8Y3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YimReaderDemo/QLReadHeader.pch";
+				INFOPLIST_FILE = YimReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.protocol.diudiusfnd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2BD7C12307F6ED003817E1 /* Build configuration list for PBXProject "YimReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2BD7DA2307F6EF003817E1 /* Debug */,
+				EF2BD7DB2307F6EF003817E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2BD7DC2307F6EF003817E1 /* Build configuration list for PBXNativeTarget "YimReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2BD7DD2307F6EF003817E1 /* Debug */,
+				EF2BD7DE2307F6EF003817E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2BD7BE2307F6ED003817E1 /* Project object */;
+}

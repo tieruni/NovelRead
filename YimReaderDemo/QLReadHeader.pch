@@ -1,0 +1,51 @@
+//
+//  PrefixHeader.pch
+//  YimReaderDemo
+//
+//  Created by Yimmm on 2019/9/19.
+//  Copyright © 2019 Yimmm. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//#define QLThemeNotification @"QLThemeNotification"
+
+#define TopSpacing 40.0f
+#define BottomSpacing 40.0f
+#define LeftSpacing 20.0f
+#define RightSpacing  20.0f
+
+#define AnimationDelay 0.3f
+#define TopViewHeight 64.0f
+#define BottomViewHeight 200.0f
+
+#define ViewFrameSize(view)  (view.frame.size)
+#define DistanceFromTopView(view) (view.frame.origin.y + view.frame.size.height)
+#define DistanceFromLeftView(view) (view.frame.origin.x + view.frame.size.width)
+
+#define MinFontSize 16.0f
+#define MaxFontSize 32.0f
+
+#define RGB(R, G, B)    [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1.0]
+
+#define QLBottomThemeNotification @"QLBottomThemeNotification"
+#define dismissVCNoti @"dismissVCNoti"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "CoreText/CoreText.h"
+#import "QLReadRecordModel.h"
+#import "QLReadParser.h"
+
+
+#import "QLReadView.h"
+#import "QLReadBookModel.h"
+#import "QLReaderChapterModel.h"
+#import "QLReadConfig.h"
+
+
+
+#endif /* PrefixHeader_pch */
